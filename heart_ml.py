@@ -40,22 +40,6 @@ p=(pi-np.min(pi))/(np.max(pi)-np.min(pi)).values
 
 from sklearn.model_selection import train_test_split
 xtrain,xtest,ytrain,ytest=train_test_split(p,q,test_size = 0.2,random_state=0)
-# xtrain=xtrain.T
-# ytrain=ytrain.T
-# ytest=ytest.T
-# xtrain=xtrain.T
-
-
-# BackPropogation
-def initialize(d):
-    weight=np.full((d,1),0.01)
-    bias=0.0
-    return weight,bias
-
-def sigmoid(z):
-    yh=1/(1+np.exp(-z))
-    return yh
-
 
 # Logistic Regression
 from sklearn.linear_model import LogisticRegression
