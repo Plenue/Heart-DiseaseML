@@ -1,0 +1,6 @@
+Accuracy of Logistic regresion  86.88524590163934 %
+Accuracy of KNN  77.04918032786885 % at k = 2
+Accuracy of KNN  88.52459016393442 % at k = 3
+Accuracy of SVM  86.88524590163934 %
+Accuracy of NB  86.88524590163934 %
+Accuracy of Decision Tree  80.32786885245902 %
